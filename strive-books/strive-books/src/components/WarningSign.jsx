@@ -5,7 +5,7 @@ const WarningSign = (props)  => {
 
    return (
     <div>  <Alert key={0} variant="warning" className="">
-        This is a warning alert created with{props.text}
+        {props.text}
       </Alert>
        </div> )
 
